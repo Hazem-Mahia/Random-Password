@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif;
+}
+
+body {
+    background-color: rgb(185, 185, 185);
+    position: relative;
+}
+
+.container {
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    background-color: rgba(96, 93, 89, 0.409);
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    top: 80px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.container h1 {
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+
+
+.Password {
+    width: 300px;
+    height: 50px;
+    background-color: hsla(0, 20%, 86%, 0.502);
+    border: 1px solid #171717;
+    margin: 20px auto;
+    font-size: 30px;
+    font-weight: 500;
+    
+}
+
+@media (max-width:767px) {
+    .container {
+        width: 300px;
+        min-height: 250px;
+    }
+    .Password {
+        width: 250px;
+        font-size: 25px;
+        padding-top:5px ;
+    }
+    .container h1 {
+        font-size: 30px;
+    }
+}
+button {
+    padding: 5px 10px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-weight: 200;
+    border: none;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    cursor: pointer;
+}
